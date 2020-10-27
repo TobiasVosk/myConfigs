@@ -1,6 +1,6 @@
 # myConfigs
 
-## OhMyZsh
+## Terminal config
 
 ```
 sudo pacman -S zsh
@@ -27,6 +27,12 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```chsh -s $(which zsh)```
 
 ### After this copy and paste .zshrc to ~
+
+### Theme: 
+- Sweet
+- Blur background
+- Background transparency 30%
+
 
 
 

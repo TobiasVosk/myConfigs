@@ -1,6 +1,6 @@
 # myConfigs
 
-# OhMyZsh
+## OhMyZsh
 
 ```
 sudo pacman -S zsh

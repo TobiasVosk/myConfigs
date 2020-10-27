@@ -26,15 +26,26 @@ Import the private key:
 
 ` cat ~/.ssh/id_rsa.pub`
 
+` git config --global commit.gpgsign true`
+
+
 Paste to https://github.com/settings/ssh.
 
 ` echo 'export GPG_TTY=$(tty)' >> ~/.bashrc`
 
 ` echo 'export GPG_TTY=$(tty)' >> ~/.zshrc`
-
+### With my keybase key
 ` git config --global user.signingkey 44EDA6D568651D26`
 
-` git config --global commit.gpgsign true`
+### To generate a new key
+```
+gpg --full-gen-key
+gpg --list-secret-keys --keyid-format LONG tobiasvosk@gmail.com
+git config --global user.signingkey keyValue
+//Paste public key to github
+gpg --armor --export keyValue
+```
+
 
 ## Terminal config
 

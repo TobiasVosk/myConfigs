@@ -3,7 +3,7 @@
 ## Apps
 
 ```
-sudo pacman -Sy --needed android-tools flatpak git curl gzip gnupg wget aria2 tor torsocks neofetch nano gparted lutris gamemode kleopatra brave keybase keybase-gui kbfs steam
+sudo pacman -Sy --needed android-tools flatpak git curl gzip gnupg wget tor torsocks neofetch nano gparted lutris gamemode kleopatra brave keybase keybase-gui kbfs steam
 ```
 
 
